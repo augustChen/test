@@ -1,20 +1,7 @@
 #!/bin/bash
-# modify 2015.09.10 
-# up ,down Bandwidth unit is Kbits/sec
 # $1 for ip address
 # $2 .sh run time
 # $3 iperf3 -t time
-# add ping_lost 
-# retry fun
-# kill iperf sleep 5
-# fix nan error 
-# add Supervision iperf3 
-# add judgement root
-# fix File_Modify == 
-# add Internet_IP 
-# remove sleep,300s
-# export LD_LIBRARY_PATH
-# cat ./files/${time1}_iperf.csv
 export LD_LIBRARY_PATH=/usr/local/lib/
 #### judgement root ######################################################################
 root_id=`id -u`
